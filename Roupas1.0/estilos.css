@@ -1,0 +1,390 @@
+body{
+	background-color: #ccc; 
+	font-family: arial; 
+}
+#container{
+	width: 1042px;
+	height: 2300px;
+	background-color: #ffffff; 
+	margin: auto; 
+}
+#banner{
+	height: 425px; 
+	background-image: url(img/1.jpg); 
+}
+#menu{
+	background-color: #f8f8f8;
+	text-align: center;
+	
+}
+#menu a{
+	display: inline-block; 
+	width: 310px; 
+	text-align: center; 
+	color: #000; 
+	text-decoration: none; 
+	font-weight: bold; 
+	padding: 10px 0;
+}
+#menu img{
+	vertical-align: middle; /* Alinhar pelo meio (SÓ FUNCIONA COM FOTO) */
+	margin-right: 10px;
+}
+#topo{
+	background-color: #ffffff; 
+	padding: 20px 60px; 
+	text-align: center; 
+}
+#mid{
+	background-color: #ffffff;
+	padding: 20px 60px;
+	text-align: center;
+}
+#produtos{
+	display: flex;
+	
+	margin-left: 80px;
+	width: 710px;
+	background-color: #ffffff;
+}
+#primeiro{
+margin: 0;
+}
+#quarto{
+	margin-left: 80px;
+}
+#segundo, #terceiro{
+	margin: 0 60px;
+	margin-right: -20px;
+	
+}
+#menu2{
+	width: 900px;
+	margin: auto;
+}
+#menu2 ul{
+	margin: 0px;
+	padding: 0;
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+#menu2 li{
+	display: inline;
+}
+#menu2 a{
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 35px;
+	background-color: #ccc;
+	padding: 10px 25px;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+	font-size: 11px;
+	border-radius: 10px;
+	font-weight: bold;
+}
+#premium{
+	background-color: #00BFFF;
+	color: #FFF !important;
+}
+#produtos2{
+	display: flex;
+	margin-left: 80px;
+	width: 710px;
+	background-color: #ffffff;
+	font-size: 11px;
+}
+#primeiro2{
+	margin-right: 40px;
+}
+#quarto2{
+	margin-left: 40px;
+}
+#segundo2, #terceiro2{
+	margin: 0 40px;
+}
+#load{
+	border: solid 1px #000;
+	color: #000;
+	text-decoration: none;
+	padding: 5px 10px;
+	border-radius: 10px;
+	width: 100px;
+	display: block;
+	margin: 15px auto;
+	font-size: 12px;
+	text-align: center;
+}
+#rodapeterceiro{
+	background-image: url(img/rodape3.jpg);
+	margin: 50px 0 0 0;
+	
+}
+#rodapeprimeiro{
+	background-image: url(img/rodape1.jpg);
+	margin: 50px 0 0 0;
+	
+}
+#rodape{
+	background-color: #1f1f1f;
+	color: #9c9b9d;
+	margin:0;
+
+}
+#colunasrodape{
+	display: flex;
+	margin: 0px 0 0 0;
+	
+}
+#co1, #co2, #co3, #co4{
+	flex: 1;
+	margin: 15px 5px 20px 20px;
+}
+.textorodape2{
+	text-align: center;
+	padding: 20px;
+}
+h2{
+	padding-top: 20px;
+}
+p{
+	font-size: 15px;
+}
+.amarelo{
+	color: #ffd615;
+}
+.camisetas{
+	margin: 10px;
+	padding: 0;
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+#menu3{
+	width: 900px;
+	margin: auto;
+}
+#menu3 ul{
+	margin: 30px;
+	padding: 0;
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+#menu3 li{
+	display: inline;
+}
+#menu3 a{
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 35px;
+	background-color: #ccc;
+	padding: 10px 25px;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+	font-size: 11px;
+	border-radius: 10px;
+	font-weight: bold;
+}
+.moletons{
+	margin: 10px;
+	padding: 0;
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+#menu4{
+	width: 900px;
+	margin: auto;
+}
+#menu4 ul{
+	margin: 30px;
+	padding: 0;
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+#menu4 li{
+	display: inline;
+}
+#menu4 a{
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 35px;
+	background-color: #ccc;
+	padding: 10px 25px;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+	font-size: 11px;
+	border-radius: 10px;
+	font-weight: bold;
+}
+.bermudas{
+	margin: 10px;
+	padding: 0;
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+#menu5{
+	width: 900px;
+	margin: auto;
+}
+#menu5 ul{
+	margin: 30px;
+	padding: 0;
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+#menu5 li{
+	display: inline;
+}
+#menu5 a{
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 35px;
+	background-color: #ccc;
+	padding: 10px 25px;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+	font-size: 11px;
+	border-radius: 10px;
+	font-weight: bold;
+}
+.mochilas{
+	margin: 10px;
+	padding: 0;
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+#menu6{
+	width: 900px;
+	margin: auto;
+}
+#menu6 ul{
+	margin: 30px;
+	padding: 0;
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+#menu6 li{
+	display: inline;
+}
+#menu6 a{
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 35px;
+	background-color: #ccc;
+	padding: 10px 25px;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+	font-size: 11px;
+	border-radius: 10px;
+	font-weight: bold;
+}
+.contato fieldset{
+	width: 400px;
+	margin: 20px auto;
+	box-sizing: border-box;
+	padding: 25px 50px;	
+}
+.contato legend{
+	font-size: 24px;
+}
+.contato .forms, .contato textarea{
+	width: 95%;
+	margin: 10px 0;
+	font-size: 18px;
+	padding: 4px;
+	border: solid 1px #666;
+	border-radius: 4px;	
+}
+.contato textarea{
+	font-family: 'Ubuntu', serif;
+	font-size: 18.6px;
+	height: 200px;	
+	resize: none 
+}
+.enviar {
+	display: block;
+	margin: 20px auto;
+	padding: 5px 20px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #090;
+	border: solid 2px #999;
+	border-radius: 10px;
+	cursor: pointer; 
+}
+#container2{
+	width: 1042px;
+	height: 1600px;
+	background-color: #ffffff; 
+	margin: auto; 
+
+}
+#menu7{
+	width: 1200px;
+	margin: 0 0 50px 0px;
+}
+#menu7 ul{
+	margin: 30px;
+	padding: 0;
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+#menu7 li{
+	display: inline;
+}
+#menu7 a{
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 35px;
+	background-color: #ccc;
+	padding: 10px 25px;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+	font-size: 11px;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
